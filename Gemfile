@@ -52,7 +52,7 @@ end
 
 group :production do
   # I use Postgress for production, b/c Heroku
-  gem 'pg'
+  gem 'pg', '~> 0.11'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
